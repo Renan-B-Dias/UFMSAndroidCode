@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renanbenattidias.dbex.PositionDetailsActivity">
+
+    <TextView
+        android:id="@+id/positionDetailsTitle"
+        android:layout_width="356dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/positionDetailsNameTextField"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/positionDetailsTitle"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/positionDetailsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/positionDetailsTitle" />
+
+    <Button
+        android:id="@+id/positionDetailsSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/positionDetailsNameTextField"
+        app:layout_constraintStart_toStartOf="@+id/positionDetailsNameTextField"
+        app:layout_constraintTop_toBottomOf="@+id/positionDetailsNameTextField" />
+
+    <Button
+        android:id="@+id/positionDetailsDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/positionDetailsSaveButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/positionDetailsSaveButton"
+        app:layout_constraintTop_toBottomOf="@+id/positionDetailsSaveButton" />
+
+</android.support.constraint.ConstraintLayout>

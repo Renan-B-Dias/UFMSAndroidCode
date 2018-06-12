@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renanbenattidias.dbex.EmployeeDetailsActivity">
+
+    <TextView
+        android:id="@+id/employeeDetailsTitle"
+        android:layout_width="356dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/employeeDetailsNameTextField"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/employeeDetailsTitle"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/employeeDetailsTitle"
+        app:layout_constraintTop_toBottomOf="@+id/employeeDetailsTitle" />
+
+    <EditText
+        android:id="@+id/employeeDetailsSalaryTextField"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/employeeDetailsNameTextField"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/employeeDetailsNameTextField"
+        app:layout_constraintTop_toBottomOf="@+id/employeeDetailsNameTextField" />
+
+    <Button
+        android:id="@+id/employeeDetailsSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/employeeDetailsSalaryTextField"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/employeeDetailsSalaryTextField"
+        app:layout_constraintTop_toBottomOf="@+id/positionsSpinner" />
+
+    <Button
+        android:id="@+id/employeeDetailsDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/employeeDetailsSaveButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/employeeDetailsSaveButton"
+        app:layout_constraintTop_toBottomOf="@+id/employeeDetailsSaveButton" />
+
+    <Spinner
+        android:id="@+id/positionsSpinner"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/employeeDetailsSalaryTextField"
+        app:layout_constraintStart_toStartOf="@+id/employeeDetailsSalaryTextField"
+        app:layout_constraintTop_toBottomOf="@+id/employeeDetailsSalaryTextField" />
+</android.support.constraint.ConstraintLayout>

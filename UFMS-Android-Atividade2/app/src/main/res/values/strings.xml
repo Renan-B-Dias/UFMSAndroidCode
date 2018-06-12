@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DBEx</string>
+    <string name="title_activity_position_list">PositionListActivity</string>
+</resources>

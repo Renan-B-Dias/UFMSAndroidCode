@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renanbenattidias.dbex.CreateEmployeeActivity">
+
+    <TextView
+        android:id="@+id/createEmployeeTitle"
+        android:layout_width="251dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Employee"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/employeeSalaryTextField"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Salary"
+        app:layout_constraintEnd_toEndOf="@+id/employeeNameTextField"
+        app:layout_constraintStart_toStartOf="@+id/employeeNameTextField"
+        app:layout_constraintTop_toBottomOf="@+id/employeeNameTextField" />
+
+    <EditText
+        android:id="@+id/employeeNameTextField"
+        android:layout_width="339dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/createEmployeeTitle"
+        app:layout_constraintStart_toStartOf="@+id/createEmployeeTitle"
+        app:layout_constraintTop_toBottomOf="@+id/createEmployeeTitle" />
+
+    <Button
+        android:id="@+id/employeeNextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="244dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/employeeSalaryTextField"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/employeeSalaryTextField"
+        app:layout_constraintTop_toBottomOf="@+id/employeeSalaryTextField" />
+
+</android.support.constraint.ConstraintLayout>
