@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DbClass</string>
+    <string name="emailPlaceholder">renanbenattidias@gmail.com.br</string>
+    <string name="passwordPlaceholder">secret123</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <string name="authenticationError">Authentication error</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Log Out</string>
+
+    <string name="wrongFields">Fields might be wrong</string>
+
+    <string name="empty"></string>
+
+    <string name="namePlaceholder">Rapunzel</string>
+</resources>
