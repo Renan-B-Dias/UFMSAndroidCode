@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+    <string name="age">Idade</string>
+    <string name="calculate">Calcular</string>
+    <string name="logout">Log Out</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="imc">IMC</string>
+    <string name="imcResult">Resultado</string>
+    <string name="errorToast">Algum campo esta inválido</string>
+    <string name="lowWeight">Baixo peso</string>
+    <string name="normalWeight">Peso normal</string>
+    <string name="overWeight">Sobrepeso</string>
+    <string name="obesity1">Obesidade 1</string>
+    <string name="obesity2">Obesidade 2</string>
+    <string name="obesity3">Obesidade 3</string>
+    <string name="veryLowWeight">Baixo peso muito grave</string>
+    <string name="lowWeight2">Baixo pesograve</string>
+    <string name="obesity">Obesidade</string>
+    <string name="loginButton">Login</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+
+</resources>

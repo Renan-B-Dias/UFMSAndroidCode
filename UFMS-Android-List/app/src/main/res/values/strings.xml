@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">List</string>
+    <string name="nameTextView">Name</string>
+    <string name="cityTextView">City</string>
+    <string name="alertErrorTitle">Ops...</string>
+    <string name="alertErrorText">Algum campo esta incorreto</string>
+    <string-array name="cities_array">
+        <item>Iran of the Pillars</item>
+        <item>El Dorado</item>
+        <item>Shangri La</item>
+        <item>Libertalia</item>
+        <item>Arendelle</item>
+        <item>Tifeti</item>
+        <item>San Fransokyo</item>
+    </string-array>
+</resources>
